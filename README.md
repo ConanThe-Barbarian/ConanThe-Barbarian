@@ -7,7 +7,7 @@
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ConanThe-Barbarian&layout=compact&hide_border=true&title_color=00BFFF&text_color=00BFFF&bg_color=0d1117" />
 </div>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ConanThe-Barbarian&bg_color=000000&color=00BFFF&line=00BFFF&point=00BFFF&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Conan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ConanThe-Barbarian&bg_color=000000&color=00BFFF&line=00BFFF&point=00BFFF&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### 🛠️ Principais Habilidades:
 <div style="display: inline_block">
@@ -20,9 +20,8 @@
   <img align="center" alt="Conan-C++" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
   <img align="center" alt="Conan-Git" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 </div>
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=120&section=footer"/>
----
 
+<br/>
 
 ### 🌐 Redes Sociais:
 <div>  
@@ -31,4 +30,4 @@
   <a href="mailto:conanfelix31@hotmail.com" target="_blank"><img src="https://img.shields.io/badge/-Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
 </div>
 
-
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=120&section=footer"/>
