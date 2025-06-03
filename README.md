@@ -18,9 +18,9 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=conanfelix&show_icons=true&theme=tokyonight" alt="Conan's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ConanThe-Barbarian&show_icons=true&theme=tokyonight" alt="Conan's GitHub stats" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=conanfelix&layout=compact&theme=tokyonight" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ConanThe-Barbarian&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
 
 ---
