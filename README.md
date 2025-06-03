@@ -23,18 +23,6 @@
 
 ---
 
-### 📌 Sobre Mim:
-- 🎓 **Formação Acadêmica**  
-  - Graduação em Gestão da TI (Estácio | 2026)  
-  - Técnico em Informática (ETERJ | 2023)  
-- 💼 **Experiência Profissional**  
-  - Técnico em TI @ 1° Batalhão de Defesa QBRN (2024-2025)  
-  - CEO @ G&C Innovations  
-- 🏆 **Certificações**  
-  - Google Hacking (UniCBE)  
-  - Especialista em DQBRN  
-
----
 
 ### 🌐 Redes Sociais:
 <div>  
