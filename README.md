@@ -1,69 +1,46 @@
-<h1 align="center">👨‍💻 Conan Ribeiro Felix</h1>
-<p align="center">
-  <strong>CEO da G&C Innovations • Técnico em Informática • Estudante de Gestão da TI</strong>
-</p>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=120&section=header"/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00BFFF&size=35&center=true&vCenter=true&width=1000&lines=OLÁ,+MEU+NOME+é+Conan+Ribeiro+Felix;Sou+CEO+da+G%26C+Innovations;Técnico+em+Informática+Certificado;Estudo+Gestão+da+TI+na+Estácio;Seja+Bem-vindo!+:%29)](https://git.io/typing-svg)
+
+<div align="center">  
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=ConanThe-Barbarian&show_icons=true&count_private=true&hide_border=true&title_color=00BFFF&icon_color=00BFFF&text_color=c9d1d9&bg_color=0d1117" alt="Conan's github stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ConanThe-Barbarian&layout=compact&hide_border=true&title_color=00BFFF&text_color=00BFFF&bg_color=0d1117" />
+</div>
+
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ConanThe-Barbarian&bg_color=000000&color=00BFFF&line=00BFFF&point=00BFFF&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+### 🛠️ Principais Habilidades:
+<div style="display: inline_block">
+  <img align="center" alt="Conan-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Conan-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Conan-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Conan-Python" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/>
+  <img align="center" alt="Conan-PHP" height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"/>
+  <img align="center" alt="Conan-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
+  <img align="center" alt="Conan-C++" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
+  <img align="center" alt="Conan-Git" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=200&section=header&text=Welcome%20to%20my%20profile!&fontSize=30&fontColor=ffffff" />
-</p>
+### 📌 Sobre Mim:
+- 🎓 **Formação Acadêmica**  
+  - Graduação em Gestão da TI (Estácio | 2026)  
+  - Técnico em Informática (ETERJ | 2023)  
+- 💼 **Experiência Profissional**  
+  - Técnico em TI @ 1° Batalhão de Defesa QBRN (2024-2025)  
+  - CEO @ G&C Innovations  
+- 🏆 **Certificações**  
+  - Google Hacking (UniCBE)  
+  - Especialista em DQBRN  
 
 ---
 
-<h3 align="center">🌍 I am from Rio de Janeiro, Brazil</h3>
+### 🌐 Redes Sociais:
+<div>  
+  <a href="https://www.instagram.com/conanfelix" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
+  <a href="https://www.linkedin.com/in/conanfelix-2b6389330" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="mailto:conanfelix31@hotmail.com" target="_blank"><img src="https://img.shields.io/badge/-Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
+</div>
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ConanThe-Barbarian&show_icons=true&theme=tokyonight" alt="Conan's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ConanThe-Barbarian&layout=compact&theme=tokyonight" alt="Top languages" />
-</p>
-
----
-
-### 🔧 Principais Competências
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-</p>
-
----
-
-### 💼 Sobre Mim
-
-- 🎓 Estudante de Gestão da Tecnologia da Informação – Estácio (2023 - 2026)  
-- 💻 Técnico em Informática – ETERJ (2023)  
-- 🛠️ CEO da G&C Innovations  
-- 👨‍🔧 Experiência com manutenção, suporte técnico, redes e desenvolvimento
-
----
-
-### 🏅 Certificações
-
-- 🛡️ Google Hacking – UniCBE  
-- ⚙️ Semana da Indústria Eletrônica de Potência – ETERJ  
-
----
-
-### 📲 Redes Sociais
-
-<p align="center">
-  <a href="https://www.instagram.com/conanfelix"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/conanfelix-2b6389330"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=conanfelix&bg_color=0d1117&color=00bfff&line=00bfff&point=ffffff&area=true&hide_border=true"/>
-</p>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=120&section=footer"/>
