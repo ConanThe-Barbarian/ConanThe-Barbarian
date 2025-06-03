@@ -20,25 +20,12 @@
   <img align="center" alt="Conan-C++" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
   <img align="center" alt="Conan-Git" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 </div>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0066CC&height=120&section=footer"/>
 
----
-
-### 📌 Sobre Mim:
-- 🎓 **Formação Acadêmica**  
-  - Graduação em Gestão da TI (Estácio | 2026)  
-  - Técnico em Informática (ETERJ | 2023)  
-- 💼 **Experiência Profissional**  
-  - Técnico em TI @ 1° Batalhão de Defesa QBRN (2024-2025)  
-  - CEO @ G&C Innovations  
-- 🏆 **Certificações**  
-  - Google Hacking (UniCBE)  
-  - Especialista em DQBRN  
-
-### 🌐 Redes Sociais:
 <div>  
   <a href="https://www.instagram.com/conanfelix" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
   <a href="https://www.linkedin.com/in/conanfelix-2b6389330" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="mailto:conanfelix31@hotmail.com" target="_blank"><img src="https://img.shields.io/badge/-Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
 </div>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0066CC&height=120&section=footer"/>
+
