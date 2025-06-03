@@ -1,35 +1,24 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Rodrigo+Meckelburg;I'm+19+years+old;I+am+from+Piracicaba,+SP;I+study+Software+Engineering+at+Estácio;Be+Welcome!+:%29)](https://git.io/typing-svg)
+# 👋 Olá, eu sou Conan Felix! 
 
+💻 **CEO da G&C Innovations** |  
+🎓 **Cursando Gestão da TI** |  
+🛠 **Técnico de Informática Certificado**  
 
-<div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Conan-TheBarbarian&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Rodrigomeckel github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rodrigomeckel&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
-</div>
+### 🚀 Habilidades  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
-<div>
+### 📊 Estatísticas do GitHub  
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=ConanFelix&show_icons=true&theme=dracula&hide_border=true)  
+![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=ConanFelix&layout=compact&theme=dracula&hide_border=true)
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Conan-TheBarbarian&bg_color=000000&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+### 🔗 Conecte-se comigo  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-linkedin)  
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/seu-instagram)  
 
-
-### Main Skills:
-
-  <img align="center" alt="Conan-Csharp" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-   <img align="center" alt="Conan-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Conan-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-     <img align="center" alt="Conan-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="Conan-Js" height="35" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
-    <img align="center" alt="Conan-Js" height="35" width="45"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-    <img align="center" alt="Conan-Js" height="35" width="45"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/>
-     <img align="center" alt="Conan-Js" height="45" width="55"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"/>
-  </div>
-  
- ### Social Media:
-  <div>  
-  <a href="https://www.instagram.com/conanfelix007/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> <a href="https:https://www.linkedin.com/in/conan-felix-2b6389330/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-
- 
- 
-</div>
-
+### 📌 Projetos Destacados  
+- [Projeto Front-end](https://github.com/ConanFelix/projeto-frontend)  
+- [Projeto Python](https://github.com/ConanFelix/projeto-python)  
