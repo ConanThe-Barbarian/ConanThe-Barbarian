@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05010d"/><stop offset=".55" stop-color="#0d0420"/><stop offset="1" stop-color="#05010d"/>
+    </linearGradient>
+    <radialGradient id="neb1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#6e01d8" stop-opacity=".55"/><stop offset="1" stop-color="#6e01d8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#c026d3" stop-opacity=".35"/><stop offset="1" stop-color="#c026d3" stop-opacity="0"/></radialGradient>
+    <radialGradient id="neb3" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2563eb" stop-opacity=".3"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset=".35" stop-color="#9d4dff" stop-opacity=".45"/><stop offset="1" stop-color="#6e01d8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="planet" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#b57bff"/><stop offset=".45" stop-color="#6e01d8"/><stop offset="1" stop-color="#1a0036"/></radialGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#d9b8ff"/><stop offset="1" stop-color="#9d4dff"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+    <clipPath id="clip"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .s{fill:#fff;animation-name:tw;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+    @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+    .neb{animation:drift 14s ease-in-out infinite alternate}
+    @keyframes drift{from{transform:translate(0,0)}to{transform:translate(40px,-15px)}}
+    .orbit{transform-origin:960px 160px;animation:spin 18s linear infinite}
+    .orbit2{transform-origin:960px 160px;animation:spin 30s linear infinite reverse}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .meteor{animation:met 7s linear infinite;opacity:0}
+    .m2{animation-delay:3.5s}
+    @keyframes met{0%{transform:translate(0,0);opacity:0}3%{opacity:1}14%{transform:translate(-520px,260px);opacity:0}100%{opacity:0}}
+    .name{font:900 72px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;letter-spacing:6px}
+    .sub{font:600 20px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#c9b3f5;letter-spacing:3px}
+    .tag{font:600 14px 'Cascadia Code',Consolas,'Courier New',monospace;fill:#9d6bff}
+    .fade{animation:up 1.2s ease-out both}
+    .d2{animation-delay:.4s} .d3{animation-delay:.8s}
+    @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    .sweep{animation:sw 5s ease-in-out infinite}
+    @keyframes sw{0%{transform:translateX(-300px)}60%,100%{transform:translateX(900px)}}
+    .cursor{animation:bl 1s steps(1) infinite}
+    @keyframes bl{50%{opacity:0}}
+    .pulse{animation:pu 3s ease-in-out infinite;transform-origin:960px 160px}
+    @keyframes pu{0%,100%{opacity:.5}50%{opacity:1}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <g class="neb">
+      <ellipse cx="300" cy="120" rx="420" ry="200" fill="url(#neb1)"/>
+      <ellipse cx="820" cy="260" rx="380" ry="170" fill="url(#neb2)"/>
+      <ellipse cx="1050" cy="60" rx="300" ry="150" fill="url(#neb3)"/>
+    </g>
+    <g>
+    <circle cx="388.6" cy="48.3" r="1.8" class="s" style="animation-duration:1.67s;animation-delay:-4.11s"/>
+    <circle cx="113.0" cy="186.5" r="1.3" class="s" style="animation-duration:2.25s;animation-delay:-0.43s"/>
+    <circle cx="501.8" cy="77.0" r="1.3" class="s" style="animation-duration:2.99s;animation-delay:-4.13s"/>
+    <circle cx="148.6" cy="71.4" r="1.8" class="s" style="animation-duration:3.54s;animation-delay:-0.31s"/>
+    <circle cx="702.6" cy="15.9" r="0.8" class="s" style="animation-duration:1.66s;animation-delay:-4.29s"/>
+    <circle cx="347.5" cy="46.2" r="0.6" class="s" style="animation-duration:3.5s;animation-delay:-2.8s"/>
+    <circle cx="818.4" cy="33.0" r="1.3" class="s" style="animation-duration:3.74s;animation-delay:-1.86s"/>
+    <circle cx="657.3" cy="20.1" r="0.6" class="s" style="animation-duration:3.67s;animation-delay:-2.48s"/>
+    <circle cx="638.1" cy="248.7" r="1" class="s" style="animation-duration:3.55s;animation-delay:-2.27s"/>
+    <circle cx="359.7" cy="254.2" r="1.8" class="s" style="animation-duration:4.23s;animation-delay:-0.41s"/>
+    <circle cx="360.3" cy="158.4" r="1" class="s" style="animation-duration:4.05s;animation-delay:-1.44s"/>
+    <circle cx="1176.2" cy="37.8" r="1" class="s" style="animation-duration:2.08s;animation-delay:-1.71s"/>
+    <circle cx="1119.9" cy="134.9" r="1.8" class="s" style="animation-duration:1.77s;animation-delay:-2.79s"/>
+    <circle cx="946.9" cy="261.9" r="1" class="s" style="animation-duration:3.93s;animation-delay:-2.97s"/>
+    <circle cx="695.9" cy="146.0" r="0.6" class="s" style="animation-duration:4.81s;animation-delay:-2.37s"/>
+    <circle cx="797.0" cy="19.4" r="1.8" class="s" style="animation-duration:2.58s;animation-delay:-2.89s"/>
+    <circle cx="817.5" cy="142.6" r="1.8" class="s" style="animation-duration:2.85s;animation-delay:-3.34s"/>
+    <circle cx="27.1" cy="147.7" r="0.8" class="s" style="animation-duration:3.64s;animation-delay:-2.47s"/>
+    <circle cx="261.8" cy="92.0" r="1.8" class="s" style="animation-duration:2.37s;animation-delay:-1.95s"/>
+    <circle cx="1045.7" cy="25.8" r="1" class="s" style="animation-duration:2.91s;animation-delay:-1.39s"/>
+    <circle cx="164.3" cy="137.8" r="1.3" class="s" style="animation-duration:2.47s;animation-delay:-2.08s"/>
+    <circle cx="430.5" cy="282.9" r="0.8" class="s" style="animation-duration:2.03s;animation-delay:-0.88s"/>
+    <circle cx="278.3" cy="74.7" r="1" class="s" style="animation-duration:4.41s;animation-delay:-0.91s"/>
+    <circle cx="338.3" cy="46.6" r="1.3" class="s" style="animation-duration:2.79s;animation-delay:-2.83s"/>
+    <circle cx="1143.7" cy="221.0" r="1.3" class="s" style="animation-duration:4.83s;animation-delay:-3.27s"/>
+    <circle cx="887.7" cy="146.1" r="1.8" class="s" style="animation-duration:4.29s;animation-delay:-1.96s"/>
+    <circle cx="478.8" cy="33.1" r="1.8" class="s" style="animation-duration:2.9s;animation-delay:-0.95s"/>
+    <circle cx="1181.6" cy="141.0" r="0.6" class="s" style="animation-duration:2.69s;animation-delay:-0.26s"/>
+    <circle cx="0.3" cy="48.4" r="0.6" class="s" style="animation-duration:4.82s;animation-delay:-3.07s"/>
+    <circle cx="84.4" cy="66.5" r="1" class="s" style="animation-duration:2.02s;animation-delay:-1.26s"/>
+    <circle cx="416.9" cy="116.5" r="0.6" class="s" style="animation-duration:1.9s;animation-delay:-2.44s"/>
+    <circle cx="1173.4" cy="153.7" r="1" class="s" style="animation-duration:1.8s;animation-delay:-0.51s"/>
+    <circle cx="411.2" cy="84.7" r="1.8" class="s" style="animation-duration:2.07s;animation-delay:-0.12s"/>
+    <circle cx="1141.2" cy="169.0" r="0.8" class="s" style="animation-duration:3.92s;animation-delay:-4.57s"/>
+    <circle cx="909.8" cy="95.4" r="1.8" class="s" style="animation-duration:4.52s;animation-delay:-3.48s"/>
+    <circle cx="313.3" cy="117.3" r="0.8" class="s" style="animation-duration:2.74s;animation-delay:-1.11s"/>
+    <circle cx="649.9" cy="160.9" r="1.8" class="s" style="animation-duration:2.28s;animation-delay:-4.06s"/>
+    <circle cx="1181.9" cy="272.8" r="0.8" class="s" style="animation-duration:4.36s;animation-delay:-3.7s"/>
+    <circle cx="272.1" cy="165.6" r="1" class="s" style="animation-duration:4.06s;animation-delay:-4.95s"/>
+    <circle cx="948.1" cy="151.1" r="0.8" class="s" style="animation-duration:3.92s;animation-delay:-4.78s"/>
+    <circle cx="536.7" cy="299.8" r="1" class="s" style="animation-duration:4.84s;animation-delay:-1.82s"/>
+    <circle cx="264.6" cy="72.6" r="0.8" class="s" style="animation-duration:2.68s;animation-delay:-2.41s"/>
+    <circle cx="1182.3" cy="195.3" r="0.6" class="s" style="animation-duration:3.18s;animation-delay:-3.26s"/>
+    <circle cx="959.6" cy="27.1" r="1.8" class="s" style="animation-duration:1.92s;animation-delay:-1.94s"/>
+    <circle cx="853.8" cy="63.8" r="0.8" class="s" style="animation-duration:3.02s;animation-delay:-3.18s"/>
+    <circle cx="104.1" cy="302.8" r="1.8" class="s" style="animation-duration:2.89s;animation-delay:-2.01s"/>
+    <circle cx="1136.2" cy="231.9" r="0.8" class="s" style="animation-duration:4.98s;animation-delay:-0.14s"/>
+    <circle cx="709.0" cy="148.9" r="1.8" class="s" style="animation-duration:2.01s;animation-delay:-4.13s"/>
+    <circle cx="1176.4" cy="210.3" r="1" class="s" style="animation-duration:2.05s;animation-delay:-2.74s"/>
+    <circle cx="25.7" cy="255.8" r="1.8" class="s" style="animation-duration:3.77s;animation-delay:-2.63s"/>
+    <circle cx="1120.3" cy="138.8" r="0.8" class="s" style="animation-duration:4.39s;animation-delay:-1.06s"/>
+    <circle cx="302.2" cy="93.7" r="0.8" class="s" style="animation-duration:4.17s;animation-delay:-1.63s"/>
+    <circle cx="653.2" cy="266.9" r="0.6" class="s" style="animation-duration:4.69s;animation-delay:-1.77s"/>
+    <circle cx="549.8" cy="186.7" r="1.3" class="s" style="animation-duration:2.97s;animation-delay:-4.59s"/>
+    <circle cx="602.0" cy="170.2" r="1.3" class="s" style="animation-duration:3.29s;animation-delay:-4.36s"/>
+    <circle cx="931.8" cy="194.7" r="0.8" class="s" style="animation-duration:2.1s;animation-delay:-2.37s"/>
+    <circle cx="870.2" cy="178.1" r="1" class="s" style="animation-duration:3.89s;animation-delay:-2.65s"/>
+    <circle cx="579.0" cy="248.5" r="1.3" class="s" style="animation-duration:1.7s;animation-delay:-0.96s"/>
+    <circle cx="50.6" cy="31.3" r="1" class="s" style="animation-duration:3.47s;animation-delay:-3.8s"/>
+    <circle cx="1095.0" cy="141.8" r="1.3" class="s" style="animation-duration:4.91s;animation-delay:-3.03s"/>
+    <circle cx="239.3" cy="88.7" r="1.3" class="s" style="animation-duration:3.37s;animation-delay:-2.39s"/>
+    <circle cx="1129.8" cy="223.7" r="1" class="s" style="animation-duration:4.73s;animation-delay:-4.46s"/>
+    <circle cx="243.1" cy="143.2" r="1" class="s" style="animation-duration:1.93s;animation-delay:-2.21s"/>
+    <circle cx="87.1" cy="77.0" r="0.6" class="s" style="animation-duration:2.24s;animation-delay:-1.51s"/>
+    <circle cx="146.8" cy="248.6" r="1.8" class="s" style="animation-duration:3.75s;animation-delay:-1.83s"/>
+    <circle cx="303.7" cy="43.9" r="1" class="s" style="animation-duration:2.27s;animation-delay:-4.76s"/>
+    <circle cx="477.9" cy="155.9" r="1.8" class="s" style="animation-duration:4.41s;animation-delay:-0.81s"/>
+    <circle cx="517.8" cy="165.0" r="1" class="s" style="animation-duration:2.97s;animation-delay:-1.78s"/>
+    <circle cx="110.6" cy="117.1" r="1" class="s" style="animation-duration:3.44s;animation-delay:-2.2s"/>
+    <circle cx="21.7" cy="106.1" r="1.3" class="s" style="animation-duration:2.53s;animation-delay:-4.8s"/>
+    <circle cx="135.4" cy="293.9" r="0.8" class="s" style="animation-duration:4.9s;animation-delay:-0.52s"/>
+    <circle cx="318.7" cy="12.7" r="0.8" class="s" style="animation-duration:2.45s;animation-delay:-0.65s"/>
+    <circle cx="506.7" cy="291.7" r="1" class="s" style="animation-duration:2.92s;animation-delay:-2.68s"/>
+    <circle cx="617.7" cy="158.3" r="1" class="s" style="animation-duration:1.81s;animation-delay:-0.29s"/>
+    <circle cx="825.8" cy="136.1" r="0.6" class="s" style="animation-duration:2.44s;animation-delay:-0.08s"/>
+    <circle cx="106.3" cy="83.4" r="1.3" class="s" style="animation-duration:4.5s;animation-delay:-0.33s"/>
+    <circle cx="1035.3" cy="145.2" r="1" class="s" style="animation-duration:4.98s;animation-delay:-2.09s"/>
+    <circle cx="1098.5" cy="198.9" r="0.6" class="s" style="animation-duration:3.34s;animation-delay:-1.19s"/>
+    <circle cx="131.3" cy="51.7" r="0.6" class="s" style="animation-duration:2.13s;animation-delay:-4.66s"/>
+    <circle cx="754.4" cy="169.9" r="0.8" class="s" style="animation-duration:2.51s;animation-delay:-2.5s"/>
+    <circle cx="213.5" cy="111.0" r="0.6" class="s" style="animation-duration:4.98s;animation-delay:-0.18s"/>
+    <circle cx="22.1" cy="161.8" r="0.8" class="s" style="animation-duration:3.3s;animation-delay:-1.23s"/>
+    <circle cx="536.5" cy="210.7" r="1.8" class="s" style="animation-duration:3.01s;animation-delay:-2.48s"/>
+    <circle cx="1001.5" cy="125.8" r="1.3" class="s" style="animation-duration:2.58s;animation-delay:-1.08s"/>
+    <circle cx="275.5" cy="63.6" r="1.8" class="s" style="animation-duration:4.05s;animation-delay:-0.7s"/>
+    <circle cx="1187.3" cy="314.2" r="0.8" class="s" style="animation-duration:1.55s;animation-delay:-3.13s"/>
+    <circle cx="1055.8" cy="137.8" r="0.6" class="s" style="animation-duration:1.8s;animation-delay:-4.21s"/>
+    <circle cx="1044.6" cy="214.6" r="1" class="s" style="animation-duration:3.6s;animation-delay:-3.46s"/>
+    <circle cx="54.3" cy="59.3" r="1" class="s" style="animation-duration:3.06s;animation-delay:-1.32s"/>
+    <circle cx="1154.1" cy="311.2" r="1.3" class="s" style="animation-duration:2.63s;animation-delay:-0.17s"/>
+    <circle cx="1058.9" cy="69.7" r="0.8" class="s" style="animation-duration:1.5s;animation-delay:-1.91s"/>
+    <circle cx="569.6" cy="160.9" r="0.8" class="s" style="animation-duration:2.37s;animation-delay:-3.88s"/>
+    <circle cx="109.0" cy="261.5" r="0.8" class="s" style="animation-duration:2.9s;animation-delay:-0.21s"/>
+    <circle cx="27.0" cy="97.4" r="0.8" class="s" style="animation-duration:1.8s;animation-delay:-4.79s"/>
+    <circle cx="1023.9" cy="49.7" r="1.8" class="s" style="animation-duration:4.24s;animation-delay:-2.98s"/>
+    <circle cx="917.2" cy="230.6" r="1" class="s" style="animation-duration:2.02s;animation-delay:-3.62s"/>
+    <circle cx="771.9" cy="14.0" r="1.8" class="s" style="animation-duration:4.62s;animation-delay:-3.14s"/>
+    <circle cx="880.6" cy="259.9" r="0.8" class="s" style="animation-duration:4.68s;animation-delay:-3.76s"/>
+    <circle cx="682.2" cy="260.1" r="0.6" class="s" style="animation-duration:4.39s;animation-delay:-2.92s"/>
+    <circle cx="1071.4" cy="218.5" r="1.8" class="s" style="animation-duration:3.75s;animation-delay:-0.43s"/>
+    <circle cx="50.2" cy="203.9" r="0.6" class="s" style="animation-duration:2.82s;animation-delay:-2.26s"/>
+    <circle cx="60.9" cy="6.0" r="1.3" class="s" style="animation-duration:3.88s;animation-delay:-2.45s"/>
+    <circle cx="4.0" cy="255.3" r="1.8" class="s" style="animation-duration:4.76s;animation-delay:-4.49s"/>
+    <circle cx="110.3" cy="168.3" r="1.8" class="s" style="animation-duration:4.08s;animation-delay:-1.26s"/>
+    <circle cx="89.3" cy="85.0" r="1.8" class="s" style="animation-duration:4.15s;animation-delay:-1.15s"/>
+    <circle cx="779.9" cy="147.3" r="1" class="s" style="animation-duration:1.77s;animation-delay:-4.55s"/>
+    <circle cx="344.8" cy="15.0" r="1.8" class="s" style="animation-duration:3.75s;animation-delay:-0.39s"/>
+    <circle cx="176.9" cy="81.3" r="1.8" class="s" style="animation-duration:3.93s;animation-delay:-3.11s"/>
+    <circle cx="160.1" cy="154.4" r="1" class="s" style="animation-duration:2.44s;animation-delay:-3.36s"/>
+    <circle cx="830.6" cy="216.2" r="1" class="s" style="animation-duration:3.98s;animation-delay:-1.43s"/>
+    <circle cx="559.1" cy="245.5" r="1.3" class="s" style="animation-duration:2.2s;animation-delay:-4.89s"/>
+    <circle cx="1123.5" cy="5.6" r="1" class="s" style="animation-duration:1.77s;animation-delay:-2.53s"/>
+    <circle cx="1193.5" cy="318.1" r="1" class="s" style="animation-duration:2.23s;animation-delay:-4.73s"/>
+    <circle cx="252.9" cy="186.1" r="0.8" class="s" style="animation-duration:4.12s;animation-delay:-1.31s"/>
+    <circle cx="431.5" cy="193.1" r="1.8" class="s" style="animation-duration:3.28s;animation-delay:-4.43s"/>
+    <circle cx="844.0" cy="74.0" r="1" class="s" style="animation-duration:2.88s;animation-delay:-0.8s"/>
+    <circle cx="1140.0" cy="218.1" r="1" class="s" style="animation-duration:2.56s;animation-delay:-0.7s"/>
+    <circle cx="412.8" cy="101.1" r="1" class="s" style="animation-duration:1.51s;animation-delay:-3.75s"/>
+    <circle cx="1006.9" cy="38.4" r="0.8" class="s" style="animation-duration:4.0s;animation-delay:-4.51s"/>
+    <circle cx="347.8" cy="119.1" r="1" class="s" style="animation-duration:2.87s;animation-delay:-4.35s"/>
+    <circle cx="91.7" cy="296.1" r="1" class="s" style="animation-duration:4.49s;animation-delay:-1.4s"/>
+    <circle cx="61.9" cy="211.8" r="1.8" class="s" style="animation-duration:4.77s;animation-delay:-1.25s"/>
+    <circle cx="318.9" cy="163.5" r="0.8" class="s" style="animation-duration:4.21s;animation-delay:-3.93s"/>
+    <circle cx="513.3" cy="9.3" r="1.8" class="s" style="animation-duration:2.9s;animation-delay:-4.38s"/>
+    <circle cx="665.0" cy="65.1" r="0.6" class="s" style="animation-duration:1.67s;animation-delay:-3.66s"/>
+    <circle cx="541.0" cy="240.9" r="1.8" class="s" style="animation-duration:4.54s;animation-delay:-2.43s"/>
+    <circle cx="1094.3" cy="176.0" r="0.8" class="s" style="animation-duration:3.15s;animation-delay:-1.72s"/>
+    <circle cx="357.3" cy="236.5" r="1.8" class="s" style="animation-duration:2.41s;animation-delay:-3.28s"/>
+    <circle cx="361.0" cy="178.3" r="1" class="s" style="animation-duration:1.92s;animation-delay:-3.22s"/>
+    <circle cx="90.2" cy="160.2" r="1" class="s" style="animation-duration:3.43s;animation-delay:-2.26s"/>
+    <circle cx="399.4" cy="243.0" r="1" class="s" style="animation-duration:1.99s;animation-delay:-0.96s"/>
+    <circle cx="108.9" cy="109.4" r="0.6" class="s" style="animation-duration:2.62s;animation-delay:-1.84s"/>
+    <circle cx="971.2" cy="64.7" r="0.6" class="s" style="animation-duration:4.12s;animation-delay:-2.06s"/>
+    <circle cx="496.7" cy="167.7" r="1" class="s" style="animation-duration:2.45s;animation-delay:-3.76s"/>
+    <circle cx="597.8" cy="183.8" r="1" class="s" style="animation-duration:1.94s;animation-delay:-2.52s"/>
+    <circle cx="755.6" cy="276.1" r="0.8" class="s" style="animation-duration:1.82s;animation-delay:-4.48s"/>
+    <circle cx="461.5" cy="206.7" r="1" class="s" style="animation-duration:4.84s;animation-delay:-4.24s"/>
+    <circle cx="1047.5" cy="7.0" r="0.6" class="s" style="animation-duration:2.99s;animation-delay:-3.82s"/>
+    <circle cx="965.1" cy="309.9" r="1" class="s" style="animation-duration:1.5s;animation-delay:-1.96s"/>
+    <circle cx="1112.2" cy="264.2" r="1" class="s" style="animation-duration:4.9s;animation-delay:-1.24s"/>
+    </g>
+    <g class="meteor"><line x1="1150" y1="10" x2="1230" y2="-30" stroke="url(#shine)" stroke-width="2"/></g>
+    <g class="meteor m2"><line x1="900" y1="-10" x2="980" y2="-50" stroke="url(#shine)" stroke-width="2"/></g>
+
+    <!-- planeta -->
+    <circle cx="960" cy="160" r="150" fill="url(#halo)" class="pulse"/>
+    <g class="orbit2"><ellipse cx="960" cy="160" rx="170" ry="170" fill="none" stroke="#6e01d8" stroke-opacity=".25" stroke-dasharray="2 8"/><circle cx="1130" cy="160" r="4" fill="#e9d5ff" filter="url(#glow)"/></g>
+    <path d="M840 160 A120 22 0 0 1 1080 160" fill="none" stroke="#b57bff" stroke-opacity=".45" stroke-width="3" transform="rotate(-18 960 160)"/>
+    <circle cx="960" cy="160" r="62" fill="url(#planet)"/>
+    <path d="M840 160 A120 22 0 0 0 1080 160" fill="none" stroke="#e9d5ff" stroke-opacity=".9" stroke-width="3" transform="rotate(-18 960 160)"/>
+    <g class="orbit"><ellipse cx="960" cy="160" rx="130" ry="130" fill="none" stroke="#9d4dff" stroke-opacity=".2"/><circle cx="960" cy="30" r="6" fill="#c026d3" filter="url(#glow)"/></g>
+
+    <!-- texto -->
+    <g class="fade"><text x="80" y="105" class="tag">&lt;/&gt; hello, world — welcome to my galaxy</text></g>
+    <g class="fade d2">
+      <text x="76" y="185" class="name" fill="url(#txt)" filter="url(#glow)">CONAN FELIX</text>
+    </g>
+    <g class="fade d3">
+      <text x="80" y="228" class="sub">CEO @ STELLAR SYNTEC  ·  IT TECHNICIAN  ·  BUILDING GALAXIA</text>
+      <rect x="80" y="248" width="120" height="4" rx="2" fill="#6e01d8"/>
+      <rect x="208" y="248" width="30" height="4" rx="2" fill="#c026d3"/>
+      <rect x="246" y="248" width="10" height="4" rx="2" fill="#9d4dff"/>
+      <text x="80" y="290" class="tag">$ ./launch --mode=stellar<tspan class="cursor"> █</tspan></text>
+    </g>
+    <rect y="120" width="160" height="90" fill="url(#shine)" opacity=".05" class="sweep"/>
+    <rect width="1200" height="320" rx="18" fill="none" stroke="#6e01d8" stroke-opacity=".5"/>
+  </g>
+</svg>
